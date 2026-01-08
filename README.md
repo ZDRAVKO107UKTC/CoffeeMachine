@@ -69,3 +69,72 @@ The menu displays the list of available coffees and their prices.
 ## Example Interaction
 
 **Initial Menu:**
+Choose an option:
+1. Buy coffee
+2. Display prices
+3. Exit
+``` 
+
+**If Buying Coffee:**
+```
+Enter coffee name: Latte Choose payment currency:
+1. BGN
+2. EUR Enter payment amount (BGN): 6.00 Buying Latte with 6.00 BGN Change returned:
+
+- 1.00 BGN Coins
+``` 
+
+**If Displaying Prices:**
+```
+Available coffees and prices:
+- Espresso: 3.00 BGN
+- Latte: 5.00 BGN
+- Cappuccino: 4.00 BGN
+``` 
+
+---
+
+## Prerequisites
+
+- **Java Development Kit (JDK):** Ensure you have JDK version 23 or later installed.
+- **Development Environment:** This project is compatible with IntelliJ IDEA 2025.1.1.1 or other Java IDEs.
+
+---
+
+## How to Run
+
+1. Clone the repository or download the project files.
+2. Open the project in your preferred Java IDE.
+3. Compile and run the `CoffeeMachineTest` class.
+4. Follow the on-screen instructions to interact with the Coffee Machine.
+
+---
+
+## Project Structure
+
+- **CoffeeMachineTest:** The entry point for running the Coffee Machine application.
+- **CoffeeMachine:** Core class that handles coffee preparation, payment, and change calculation.
+- **Coffee:** Represents individual coffee types with attributes like price, preparation time, and ingredient requirements.
+- **DualCurrencyChange:** Handles the calculation and display of change in dual currency denominations.
+- **Currency:** Enum for currencies supported by the machine (BGN, EUR).
+- **CurrencyDenominations:** Provides currency denomination values for different currencies.
+
+---
+
+## Future Enhancements
+
+- Add support for additional beverages.
+- Implement stock refill functionality.
+- Introduce card payments alongside cash-based payments.
+- Provide multi-language support for the interface.
+
+---
+
+## License
+
+This project is open-source and available for use/modification under a standard open-source license.
+
+--- 
+
+Thank you for using the Coffee Machine project! Enjoy your coffee! ☕
+```
